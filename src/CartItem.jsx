@@ -18,12 +18,13 @@ const CartItem = ({ onContinueShopping }) => {
     return total;
   };
 
+
   const handleContinueShopping = (e) => {
-    onContinueShopping();
+    navigate('/product-list');
   };
 
   const handleCheckoutShopping = (e) => {
-    alert('Functionality to be added for future reference');
+    alert('Coming Soon');
   };
 
   const handleIncrement = (item) => {
@@ -91,5 +92,3 @@ const CartItem = ({ onContinueShopping }) => {
 };
 
 export default CartItem;
-
-
